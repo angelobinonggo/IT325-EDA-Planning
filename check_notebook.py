@@ -1,6 +1,6 @@
 import json
 
-with open('EDA_Planning_Activity2.ipynb', 'r') as f:
+with open('EDA_Planning_Activity2.ipynb', 'r', encoding='utf-8') as f:
     nb = json.load(f)
 
 print(f'Total cells: {len(nb["cells"])}')
